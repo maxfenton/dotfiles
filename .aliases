@@ -1,0 +1,24 @@
+alias zshconfig="subl ~/.zshrc"
+alias ohmyzsh="subl ~/.oh-my-zsh"
+alias zshrc="source ~/.zshrc"
+
+####### UPDATES
+
+alias brewupdate="brew update; brew doctor; brew upgrade; brew cleanup;"
+alias npmupdate="npm install -g npm@latest"
+alias yarnupdate="yarn global upgrade"
+alias rvmupdate="rvm get stable"
+alias composerupdate="/usr/local/bin/composer self-update && composer global update"
+alias kirbyupdate="composer global update getkirby/cli"
+alias vagrant-update="vagrant plugin update; vagrant box prune; vagrant global-status --prune"
+alias update--all="brewupdate;composerupdate;vagrant-update;yarnupdate;npmupdate;rvmupdate;softwareupdate --list"
+
+####### APPLICATIONS
+
+####### GIT
+
+alias tower="gittower"
+
+####### LOCAL DEVELOPMENT
+
+alias php-up="php -S 127.0.0.1:8088"
