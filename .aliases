@@ -15,10 +15,7 @@ alias update--all="brewupdate;composerupdate;vagrant-update;yarnupdate;npmupdate
 
 ####### APPLICATIONS
 
-####### GIT
-
 alias tower="gittower"
 
-####### LOCAL DEVELOPMENT
+####### GIT
 
-alias php-up="php -S 127.0.0.1:8088"
