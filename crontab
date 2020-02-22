@@ -1,0 +1,2 @@
+MAILTO=""
+0 9 * * * zsh -ic "update--all" > /dev/null
